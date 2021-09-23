@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: store-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.01:8848
+        file-extension: yaml
+        namespace: 15550aeb-b54d-404a-a81b-19b7b1b9061c
+        extension-configs[0]:
+          data-id: mydatis.yml
+          group: dev   # 默认为DEFAULT_GROUP
+          refresh: true   # 是否动态刷新，默认为false
+        extension-configs[1]:
+          data-id: DataSource.yml
+          group: dev
+          refresh: true
+        extension-configs[2]:
+          data-id: other.yml
+          group: dev
+          refresh: true
+
+

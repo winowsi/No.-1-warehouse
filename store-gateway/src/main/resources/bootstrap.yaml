@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: store-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 6ec845fd-8cdc-4ba9-ba89-6780309190f2

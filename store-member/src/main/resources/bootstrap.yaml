@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: store-member
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 127.0.0.1:8848
+        namespace: 390eb46e-c3c7-43f9-afb2-76798c9acb57

@@ -3,12 +3,9 @@ package com.winowsi.member.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.winowsi.member.feign.CouponFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.winowsi.member.entity.UmsMemberEntity;
 import com.winowsi.member.service.UmsMemberService;
@@ -29,6 +26,22 @@ import com.winowsi.common.utils.R;
 public class UmsMemberController {
     @Autowired
     private UmsMemberService umsMemberService;
+    @Autowired
+    private CouponFeignService couponFeignService;
+
+    /**
+     * @auth zhao yao
+     * @return 会员集合and优惠券集合
+     * @description: 用于测试远程调用store_coupon微服务的controller接口
+     * @date:2021年9月23日09:53:52
+     */
+    @GetMapping("memberCoupon/List")
+    public R memberCouponList(){
+        UmsMemberEntity umsMember = new UmsMemberEntity();
+        umsMember.setNickname("王五");
+        R couponList = couponFeignService.bigCouponList();
+        return R.ok().put("umsMember",umsMember).put("coupon",couponList.get("coupon"));
+    }
 
     /**
      * 列表
