@@ -1,6 +1,7 @@
 package com.winowsi.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import com.winowsi.product.entity.CategoryEntity;
 import com.winowsi.product.service.CategoryService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.common.utils.R;
-
+import org.w3c.dom.stylesheets.LinkStyle;
 
 
 /**
@@ -31,13 +32,14 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 查出所有分类及子分类以树形结构组装起来
      */
-    @RequestMapping("/list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+    @RequestMapping("/list/tree")
+    public R list(){
+       List<CategoryEntity> entities= categoryService.listWithTree();
 
-        return R.ok().put("page", page);
+
+        return R.ok().put("data", entities);
     }
 
 

@@ -5,11 +5,18 @@ server:
     max-threads: 1000
     min-spare-threads: 30
   port: 8080
-  connection-timeout: 5000ms
+  Netty:
+    connection-timeout: 5000ms
   servlet:
     context-path: /renren-fast
 
 spring:
+  application:
+    name: renren-fast
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
   # 环境 dev|test|prod
   profiles:
     active: dev

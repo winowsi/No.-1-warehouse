@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.CategoryEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -16,5 +17,15 @@ import java.util.Map;
 public interface CategoryService extends IService<CategoryEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    /**
+     * description:
+     *  1.查出所有分类
+     *  2.组装树形结构
+     * @return CategoryEntity集合
+     * @Aouth zhaoYao
+     * @date 2021年9月26日16:58:04
+     */
+    List<CategoryEntity> listWithTree();
 }
 
