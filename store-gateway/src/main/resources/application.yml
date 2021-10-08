@@ -19,6 +19,23 @@ spring:
           uri: https://www.github.com
           predicates:
             - Query=url,github
+#########################商品服务路由配置##########################################
+#         注意!!!   精确的路由地址必须放到最前面   注意!!!
+#########################商品服务路由配置##########################################
+        - id: product_route
+          uri: lb://store-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: third_party_route
+          uri: lb://story-thirdparty
+          predicates:
+            - Path=/api/thirdparty/**
+          filters:
+            - RewritePath=/api/thirdparty/?(?<segment>.*),/$\{segment}
+######################## #后台服务路由配置##########################################
         - id: admin_route
           uri: lb://renren-fast
           predicates:

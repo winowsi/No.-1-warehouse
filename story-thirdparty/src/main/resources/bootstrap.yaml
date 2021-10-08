@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: story-thirdparty
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: a001900d-cebf-40ba-8ebf-ef41b48f3c98
+        extension-configs[0]:
+          data-id: oss.yml
+          group: DEFAULT_GROUP # 默认为DEFAULT_GROUP
+          refresh: true   # 是否动态刷新，默认为false
