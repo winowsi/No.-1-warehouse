@@ -1,11 +1,16 @@
 package com.winowsi.product.service.impl;
 
+import com.winowsi.product.service.CategoryBrandRelationService;
+import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -16,6 +21,7 @@ import com.winowsi.common.utils.Query;
 import com.winowsi.product.dao.CategoryDao;
 import com.winowsi.product.entity.CategoryEntity;
 import com.winowsi.product.service.CategoryService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 /**
@@ -23,6 +29,9 @@ import com.winowsi.product.service.CategoryService;
  */
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
+
+    @Autowired
+    private CategoryBrandRelationService categoryBrandRelationService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -64,6 +73,47 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     public void removeMenuByIds(List<Long> asList) {
 
         baseMapper.deleteBatchIds(asList);
+    }
+
+    /**
+     *
+     * @param attr
+     * @return 找到三级分类的完整路径
+     */
+    @Override
+    public Long[] findCateLogPath(Long attr) {
+        List<Long> longs = new ArrayList<>();
+
+        List<Long> prentPath = findPrentPath(attr, longs);
+
+        Collections.reverse(prentPath);
+
+        return prentPath.toArray(new Long[prentPath.size()]);
+    }
+
+    /**
+     *级联更新
+     * @param category
+     */
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void updateCascade(CategoryEntity category) {
+        this.updateById(category);
+        if (!StringUtils.isEmpty(category.getName())){
+            categoryBrandRelationService.updateCategory(category.getCatId(),category.getName());
+        }
+    }
+
+    private List<Long> findPrentPath(Long prentId, List<Long> longs){
+
+        longs.add(prentId);
+
+        CategoryEntity category = this.getById(prentId);
+        if (category.getParentCid()!=0){
+            findPrentPath(category.getParentCid(),longs);
+        }
+        return longs;
+
     }
 
 

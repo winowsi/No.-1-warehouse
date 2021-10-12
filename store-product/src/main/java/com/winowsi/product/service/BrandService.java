@@ -3,6 +3,8 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.BrandEntity;
+import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Map;
 
@@ -15,6 +17,10 @@ import java.util.Map;
  */
 public interface BrandService extends IService<BrandEntity> {
 
+
     PageUtils queryPage(Map<String, Object> params);
+
+    void updateDetail(BrandEntity brand);
+
 }
 

@@ -3,7 +3,10 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.AttrEntity;
+import com.winowsi.product.vo.AttrRespVo;
+import com.winowsi.product.vo.AttrVo;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -16,5 +19,15 @@ import java.util.Map;
 public interface AttrService extends IService<AttrEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveAttr(AttrVo attr);
+
+    PageUtils queryBaseAttrPage(Map<String, Object> params, Long catelogId, String attrType);
+
+    AttrRespVo getAttrInfor(Long attrId);
+
+    void updateAttr(AttrVo attr);
+
+    List<AttrEntity> getRelationAttr(Long attrGroupId);
 }
 

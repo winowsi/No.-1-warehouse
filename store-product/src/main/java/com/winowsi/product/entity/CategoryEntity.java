@@ -6,9 +6,9 @@ import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
-import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 /**
@@ -65,7 +65,9 @@ public class CategoryEntity implements Serializable {
 	/**
 	 * 所有子分类
 	 * @TableField 不是数据表中的数据
+	 * @JsonInclude(JsonInclude.Include.NON_EMPTY)该字段不为空的时候返回
 	 */
+	@JsonInclude(JsonInclude.Include.NON_EMPTY)
 	@TableField(exist = false)
 	private List<CategoryEntity> children;
 
