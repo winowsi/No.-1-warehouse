@@ -12,7 +12,7 @@
         <result property="catelogName" column="catelog_name"/>
     </resultMap>
     <update id="updatebyCategory">
-        UPDATE `store_pms`.`pms_category_brand_relation` SET `catelog_name` = #{catName} WHERE `id` = #{catId}
+        UPDATE `store_pms`.`pms_category_brand_relation` SET pms_category_brand_relation.catelog_name = #{catName} WHERE pms_category_brand_relation.id = #{catId}
     </update>
 
 

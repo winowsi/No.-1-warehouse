@@ -3,6 +3,7 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.AttrAttrgroupRelationEntity;
+import com.winowsi.product.vo.AttrGroupRelationVo;
 
 import java.util.Map;
 
@@ -16,5 +17,7 @@ import java.util.Map;
 public interface AttrAttrgroupRelationService extends IService<AttrAttrgroupRelationEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveBatch(AttrGroupRelationVo[] attrGroupRelationVo);
 }
 

@@ -38,6 +38,7 @@ public class StoryExceptionControllerAdvice {
      */
     @ExceptionHandler(value = Throwable.class)
     public R handleException(Throwable throwable){
+
         return R.error(BizCodeExceptionEnume.UNKNOWN_EXCEPTION.getCode(),BizCodeExceptionEnume.UNKNOWN_EXCEPTION.getMsg());
     }
 

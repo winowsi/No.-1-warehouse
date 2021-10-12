@@ -3,12 +3,13 @@ package com.winowsi.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+
 import com.winowsi.product.vo.AttrRespVo;
 import com.winowsi.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.winowsi.product.entity.AttrEntity;
+
 import com.winowsi.product.service.AttrService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.common.utils.R;
@@ -96,5 +97,7 @@ public class AttrController {
 
         return R.ok();
     }
+
+
 
 }

@@ -3,6 +3,7 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.AttrEntity;
+import com.winowsi.product.vo.AttrGroupRelationVo;
 import com.winowsi.product.vo.AttrRespVo;
 import com.winowsi.product.vo.AttrVo;
 
@@ -29,5 +30,10 @@ public interface AttrService extends IService<AttrEntity> {
     void updateAttr(AttrVo attr);
 
     List<AttrEntity> getRelationAttr(Long attrGroupId);
+
+    void deleteRelation(AttrGroupRelationVo[] attrGroupRelationVo);
+
+
+    PageUtils getNoRelationAttr(Map<String, Object> params, Long attrGroupId);
 }
 

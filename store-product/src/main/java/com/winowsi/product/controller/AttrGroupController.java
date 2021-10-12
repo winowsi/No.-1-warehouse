@@ -5,8 +5,10 @@ import java.util.List;
 import java.util.Map;
 
 import com.winowsi.product.entity.AttrEntity;
+import com.winowsi.product.service.AttrAttrgroupRelationService;
 import com.winowsi.product.service.AttrService;
 import com.winowsi.product.service.CategoryService;
+import com.winowsi.product.vo.AttrGroupRelationVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -33,6 +35,8 @@ public class AttrGroupController {
     private CategoryService categoryService;
     @Autowired
     private AttrService attrService;
+    @Autowired
+    private AttrAttrgroupRelationService attrAttrgroupRelationService;
 
     /**
      * 列表
@@ -57,10 +61,31 @@ public class AttrGroupController {
         return R.ok().put("attrGroup", attrGroup);
     }
 
-    //product/attrgroup/1/attr/relation?t=1634014792730
 
     /**
-     * 分组属性关联
+     * 添加分组关联属性
+     * @param attrGroupRelationVo
+     * @return
+     */
+    @PostMapping("/attr/relation")
+    public  R addRelation(@RequestBody AttrGroupRelationVo [] attrGroupRelationVo){
+
+         attrAttrgroupRelationService.saveBatch(attrGroupRelationVo);
+        return R.ok();
+    }
+    /**
+     * 移除分组关联的属性
+     * @param attrGroupRelationVo
+     * @return
+     */
+    @PostMapping("/attr/relation/delete")
+    public R deleteRelation(@RequestBody AttrGroupRelationVo[] attrGroupRelationVo){
+        attrService.deleteRelation(attrGroupRelationVo);
+        return R.ok();
+    }
+
+    /**
+     * 查询分组关联的所有属性
      * @param attrGroupId
      * @return
      */
@@ -69,6 +94,19 @@ public class AttrGroupController {
        List<AttrEntity> attrEntityList=attrService.getRelationAttr(attrGroupId);
         return R.ok().put("data",attrEntityList);
     }
+
+    /**
+     * 查询分组未关联的所有属性
+     * @param params
+     * @param attrGroupId
+     * @return
+     */
+    @GetMapping("/{attrGroupId}/noattr/relation")
+    public  R attrNoRelation(@RequestParam Map<String, Object> params,@PathVariable("attrGroupId")Long attrGroupId ){
+        PageUtils pages=  attrService.getNoRelationAttr(params,attrGroupId);
+        return R.ok().put("page",pages);
+    }
+
 
     /**
      * 保存
