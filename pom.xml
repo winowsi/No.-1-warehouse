@@ -20,13 +20,14 @@
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>store-gateway</module>
+        <module>story-thirdparty</module>
 
     </modules>
 
     <!--  这里的属性会被子模块继承  -->
     <properties>
         <java.version>1.8</java.version>
-        <mall.version>0.0.1-SNAPSHOT</mall.version>
+        <store.version>0.0.1-SNAPSHOT</store.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <lombok.version>1.18.18</lombok.version>
@@ -95,9 +96,9 @@
             </dependency>
 
             <dependency>
-                <groupId>com.zsy</groupId>
-                <artifactId>mall-common</artifactId>
-                <version>${mall.version}</version>
+                <groupId>com.winowsi.store</groupId>
+                <artifactId>store-common</artifactId>
+                <version>${store.version}</version>
             </dependency>
 
             <dependency>
