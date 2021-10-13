@@ -12,7 +12,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.winowsi.product.dao")
+//@MapperScan("com.winowsi.product.dao")
 public class StoreProductApplication {
 
     public static void main(String[] args) {

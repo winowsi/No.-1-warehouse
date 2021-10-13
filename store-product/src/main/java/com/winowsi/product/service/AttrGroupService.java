@@ -3,8 +3,10 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.AttrGroupEntity;
+import com.winowsi.product.vo.AttrGroupWithAttrsVo;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,5 +21,7 @@ public interface AttrGroupService extends IService<AttrGroupEntity> {
     PageUtils queryPage(Map<String, Object> params);
 
     PageUtils queryPage(Map<String, Object> params, Long categoryId);
+
+    List<AttrGroupWithAttrsVo> getAttrGroupWithAttrsById(Long categoryId);
 }
 

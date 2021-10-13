@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
 
 /**
@@ -12,7 +11,7 @@ import lombok.Data;
  * 
  * @author zhaoyao
  * @email winowsi@outlook.com
- * @date 2021-09-18 15:03:34
+ * @date 2021-10-13 17:23:10
  */
 @Data
 @TableName("pms_attr")
@@ -32,6 +31,10 @@ public class AttrEntity implements Serializable {
 	 * 是否需要检索[0-不需要，1-需要]
 	 */
 	private Integer searchType;
+	/**
+	 * 漏掉的 是否可多选的属性0单选1多选
+	 */
+	private Integer valueType;
 	/**
 	 * 属性图标
 	 */
