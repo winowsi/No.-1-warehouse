@@ -3,6 +3,7 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.SpuInfoEntity;
+import com.winowsi.product.vo.spuvo.SpuSaveVo;
 
 import java.util.Map;
 
@@ -16,5 +17,11 @@ import java.util.Map;
 public interface SpuInfoService extends IService<SpuInfoEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveInfoSpuVo(SpuSaveVo vo);
+
+    void saveBaseSupInfo(SpuInfoEntity spuInfo);
+
+    PageUtils queryPageByCondition(Map<String, Object> params);
 }
 

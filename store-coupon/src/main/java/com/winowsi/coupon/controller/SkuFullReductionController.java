@@ -3,12 +3,9 @@ package com.winowsi.coupon.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.winowsi.common.to.SkuReductionTo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.winowsi.coupon.entity.SkuFullReductionEntity;
 import com.winowsi.coupon.service.SkuFullReductionService;
@@ -54,10 +51,21 @@ public class SkuFullReductionController {
     /**
      * 保存
      */
-    @RequestMapping("/save")
+    @PostMapping("/save")
     public R save(@RequestBody SkuFullReductionEntity skuFullReduction){
 		skuFullReductionService.save(skuFullReduction);
 
+        return R.ok();
+    }
+
+    /**
+     *保存详情
+     * @param skuReductionTo
+     * @return
+     */
+    @PostMapping("/save/info")
+    R saveReduction(@RequestBody SkuReductionTo skuReductionTo){
+        skuFullReductionService.saveReduction(skuReductionTo);
         return R.ok();
     }
 

@@ -29,6 +29,15 @@ spring:
           filters:
             - RewritePath=/api/?(?<segment>.*),/$\{segment}
 
+#########################仓储服务路由配置##########################################
+        - id: ware_route
+          uri: lb://store-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+
 #########################三方服务路由配置##########################################
         - id: member_route
           uri: lb://store-member
