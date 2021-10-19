@@ -1,9 +1,14 @@
 package com.winowsi.product.controller;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
+import com.winowsi.product.entity.ProductAttrValueEntity;
+import com.winowsi.product.entity.SpuInfoEntity;
+import com.winowsi.product.service.ProductAttrValueService;
 import com.winowsi.product.vo.AttrRespVo;
 import com.winowsi.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,9 +33,34 @@ import com.winowsi.common.utils.R;
 public class AttrController {
     @Autowired
     private AttrService attrService;
+    @Autowired
+    private ProductAttrValueService productAttrValueService;
+
+
+    /**
+     * 根据spuId修改属性
+     * @param spuId
+     * @return
+     */
+    @PostMapping("/update/{spuId}")
+    public R updateForSpu(@PathVariable("spuId") Long spuId,@RequestBody List<ProductAttrValueEntity> list){
+        productAttrValueService.updateBySpuId(spuId,list);
+        return R.ok();
+    }
+    /**
+     * 根据spuId获取spu规格
+     * @param spuId
+     * @return
+     */
+    @GetMapping("/base/listforspu/{spuId}")
+    public R baseListForSpu(@PathVariable("spuId") Long spuId){
+
+       List<ProductAttrValueEntity> productAttrValueEntities= productAttrValueService.fandAttrValueBySpuId(spuId);
 
 
 
+        return R.ok().put("data",productAttrValueEntities);
+    }
     /**
      * @description: 规格参数 销售属性
      * url:

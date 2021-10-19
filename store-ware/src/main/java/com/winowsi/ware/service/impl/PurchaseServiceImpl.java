@@ -71,10 +71,9 @@ public class PurchaseServiceImpl extends ServiceImpl<PurchaseDao, PurchaseEntity
         }
 
         //采购单的状态是0和1才可以合并
-        if (purchaseId!=null){
             PurchaseEntity  purchaseEntity = this.getById(purchaseId);
             boolean created = purchaseEntity.getStatus().equals(WareConstant.purchaseDetailEnum.CREATED.getCode());
-            boolean assigned = purchaseEntity.getStatus().equals(WareConstant.purchaseDetailEnum.ASSIGNED);
+            boolean assigned = purchaseEntity.getStatus().equals(WareConstant.purchaseDetailEnum.ASSIGNED.getCode());
             if (created||assigned){
                 List<Long> items = mergeVo.getItems();
                 Long finalPurchaseId = purchaseId;
@@ -89,11 +88,13 @@ public class PurchaseServiceImpl extends ServiceImpl<PurchaseDao, PurchaseEntity
                 purchaseDetailService.updateBatchById(collect);
 
                 PurchaseEntity purchase =new PurchaseEntity();
+                purchase.setId(purchaseId);
+                purchase.setStatus(WareConstant.purchaseStatusEnum.RECEIVE.getCode());
                 purchase.setUpdateTime(new Date());
                 this.updateById(purchase);
 
             }
-        }
+
 
     }
 

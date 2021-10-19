@@ -1,6 +1,10 @@
 package com.winowsi.ware.service.impl;
 
+import com.sun.xml.internal.bind.v2.TODO;
+import com.winowsi.common.utils.R;
+import com.winowsi.ware.feign.ProductFeignService;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,6 +22,8 @@ import com.winowsi.ware.service.WareSkuService;
 
 @Service("wareSkuService")
 public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> implements WareSkuService {
+    @Autowired
+    private ProductFeignService productFeignService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -47,6 +53,19 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
             wareSkuEntity.setSkuId(skuId);
             wareSkuEntity.setWareId(wareId);
             wareSkuEntity.setStock(skuNum);
+            //TODO 远程调用product 获取sku的信息 如果失败整个事务不会回滚
+            //1.catch掉了异常所以不会回滚
+            //2.TODO  分布式? 事务
+            try {
+                R info = productFeignService.info(skuId);
+                if (info.grtCode()==0){
+                    Map<String,Object> map  = (Map<String, Object>) info.get("skuInfo");
+                    wareSkuEntity.setSkuName((String) map.get("skuName"));
+                }
+            }catch (Exception e){
+
+            }
+
             this.baseMapper.insert(wareSkuEntity);
         }else {
             this.baseMapper.addStock( skuId,  wareId,  skuNum);

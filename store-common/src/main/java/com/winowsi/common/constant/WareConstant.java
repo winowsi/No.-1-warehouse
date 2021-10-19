@@ -66,7 +66,7 @@ public class WareConstant {
          */
         ASSIGNED("已分配",1),
         /**
-         *  已领取
+         *  正在采购
          */
         BUYING("正在采购",2),
         /**
