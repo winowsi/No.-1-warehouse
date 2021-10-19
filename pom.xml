@@ -21,6 +21,7 @@
         <module>renren-generator</module>
         <module>store-gateway</module>
         <module>story-thirdparty</module>
+        <module>store-search</module>
 
     </modules>
 
@@ -39,6 +40,7 @@
         <spring.cloud.version>Hoxton.SR3</spring.cloud.version>
         <cloud.alibaba.version>2.2.1.RELEASE</cloud.alibaba.version>
         <oss.version>0.9.0.RELEASE</oss.version>
+        <elasticsearch.version>7.4.2</elasticsearch.version>
     </properties>
     <!--  子模块继承父模块之后，提供作用：锁定版本 + 子模块不用再写 version  -->
     <dependencyManagement>
@@ -105,6 +107,22 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-alicloud-oss</artifactId>
                 <version>${oss.version}</version>
+            </dependency>
+            <!-- 重写覆盖 spring-boot-dependencies 中的依赖版本  -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

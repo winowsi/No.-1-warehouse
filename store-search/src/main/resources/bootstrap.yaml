@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: store-search
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 3704bc9e-0e77-467b-8ee6-28460d3583a3
+        file-extension: yaml
