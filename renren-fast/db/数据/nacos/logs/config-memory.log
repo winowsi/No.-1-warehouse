@@ -1,0 +1,1784 @@
+2021-10-19 16:24:07,083 INFO [long-pulling] client count 0
+
+2021-10-19 16:24:17,054 INFO toNotifyTaskSize=0
+
+2021-10-19 16:24:17,054 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:24:17,091 INFO [long-pulling] client count 0
+
+2021-10-19 16:24:27,058 INFO toNotifyTaskSize=0
+
+2021-10-19 16:24:27,058 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:24:27,094 INFO [long-pulling] client count 0
+
+2021-10-19 16:24:37,059 INFO toNotifyTaskSize=0
+
+2021-10-19 16:24:37,059 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:24:37,098 INFO [long-pulling] client count 0
+
+2021-10-19 16:24:47,061 INFO toNotifyTaskSize=0
+
+2021-10-19 16:24:47,064 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:24:47,099 INFO [long-pulling] client count 0
+
+2021-10-19 16:24:57,065 INFO toNotifyTaskSize=0
+
+2021-10-19 16:24:57,065 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:24:57,103 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:07,068 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:07,068 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:07,106 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:17,072 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:17,072 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:17,107 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:27,073 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:27,073 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:27,109 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:37,074 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:37,074 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:37,112 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:47,076 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:47,076 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:47,115 INFO [long-pulling] client count 0
+
+2021-10-19 16:25:57,077 INFO toNotifyTaskSize=0
+
+2021-10-19 16:25:57,077 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:25:57,117 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:07,078 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:07,078 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:07,118 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:17,081 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:17,081 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:17,120 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:27,084 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:27,084 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:27,124 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:37,087 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:37,087 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:37,126 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:47,090 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:47,090 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:47,126 INFO [long-pulling] client count 0
+
+2021-10-19 16:26:57,093 INFO toNotifyTaskSize=0
+
+2021-10-19 16:26:57,093 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:26:57,128 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:07,096 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:07,096 INFO groupCount=13, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:07,130 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:17,099 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:17,099 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:17,131 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:27,100 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:27,100 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:27,132 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:37,102 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:37,102 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:37,133 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:47,104 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:47,104 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:47,136 INFO [long-pulling] client count 0
+
+2021-10-19 16:27:57,107 INFO toNotifyTaskSize=0
+
+2021-10-19 16:27:57,107 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:27:57,138 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:07,108 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:07,108 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:07,141 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:17,109 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:17,109 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:17,143 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:27,109 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:27,109 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:27,146 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:37,113 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:37,113 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:37,147 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:47,114 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:47,114 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:47,148 INFO [long-pulling] client count 0
+
+2021-10-19 16:28:57,116 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:28:57,116 INFO toNotifyTaskSize=0
+
+2021-10-19 16:28:57,150 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:07,117 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:07,117 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:07,154 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:17,121 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:17,121 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:17,155 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:27,121 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:27,121 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:27,157 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:37,126 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:37,126 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:37,161 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:47,126 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:47,126 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:47,163 INFO [long-pulling] client count 0
+
+2021-10-19 16:29:57,128 INFO toNotifyTaskSize=0
+
+2021-10-19 16:29:57,128 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:29:57,163 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:07,130 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:07,130 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:07,166 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:17,134 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:17,134 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:17,166 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:27,137 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:27,137 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:27,168 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:37,139 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:37,139 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:37,171 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:47,140 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:47,140 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:47,172 INFO [long-pulling] client count 0
+
+2021-10-19 16:30:57,141 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:30:57,141 INFO toNotifyTaskSize=0
+
+2021-10-19 16:30:57,176 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:07,142 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:07,142 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:07,178 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:17,142 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:17,142 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:17,180 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:27,143 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:27,143 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:27,182 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:37,146 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:37,146 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:37,184 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:47,146 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:47,146 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:47,187 INFO [long-pulling] client count 0
+
+2021-10-19 16:31:57,148 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:31:57,148 INFO toNotifyTaskSize=0
+
+2021-10-19 16:31:57,190 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:07,150 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:07,150 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:07,193 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:17,151 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:17,151 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:17,193 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:27,155 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:27,155 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:27,197 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:37,157 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:37,157 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:37,200 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:47,159 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:47,159 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:47,201 INFO [long-pulling] client count 0
+
+2021-10-19 16:32:57,163 INFO toNotifyTaskSize=0
+
+2021-10-19 16:32:57,163 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:32:57,203 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:07,167 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:07,167 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:07,207 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:17,170 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:17,170 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:17,211 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:27,173 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:27,173 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:27,212 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:37,176 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:37,176 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:37,215 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:47,177 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:47,177 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:47,216 INFO [long-pulling] client count 0
+
+2021-10-19 16:33:57,179 INFO toNotifyTaskSize=0
+
+2021-10-19 16:33:57,179 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:33:57,218 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:07,180 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:07,180 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:07,218 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:17,181 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:17,181 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:17,219 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:27,183 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:27,183 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:27,222 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:37,185 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:37,185 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:37,223 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:47,188 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:47,188 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:47,225 INFO [long-pulling] client count 0
+
+2021-10-19 16:34:57,189 INFO toNotifyTaskSize=0
+
+2021-10-19 16:34:57,189 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:34:57,228 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:07,191 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:07,191 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:07,231 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:17,192 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:17,192 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:17,232 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:27,194 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:27,194 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:27,233 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:37,195 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:37,195 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:37,234 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:47,198 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:47,198 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:47,238 INFO [long-pulling] client count 0
+
+2021-10-19 16:35:57,199 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:35:57,199 INFO toNotifyTaskSize=0
+
+2021-10-19 16:35:57,242 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:07,203 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:07,203 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:07,246 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:17,204 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:17,204 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:17,247 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:27,207 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:27,207 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:27,250 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:37,209 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:37,209 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:37,252 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:47,210 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:47,210 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:47,255 INFO [long-pulling] client count 0
+
+2021-10-19 16:36:57,211 INFO toNotifyTaskSize=0
+
+2021-10-19 16:36:57,211 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:36:57,256 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:07,213 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:07,213 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:07,257 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:17,217 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:17,217 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:17,259 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:27,221 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:27,221 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:27,262 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:37,221 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:37,221 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:37,263 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:47,222 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:47,222 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:47,266 INFO [long-pulling] client count 0
+
+2021-10-19 16:37:57,224 INFO toNotifyTaskSize=0
+
+2021-10-19 16:37:57,224 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:37:57,270 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:07,227 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:07,227 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:07,270 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:17,230 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:17,230 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:17,273 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:27,232 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:27,232 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:27,276 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:37,234 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:37,234 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:37,277 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:47,237 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:47,237 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:47,278 INFO [long-pulling] client count 0
+
+2021-10-19 16:38:57,240 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:38:57,240 INFO toNotifyTaskSize=0
+
+2021-10-19 16:38:57,279 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:07,244 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:07,244 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:07,280 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:17,246 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:17,246 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:17,281 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:27,249 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:27,249 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:27,285 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:37,250 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:37,250 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:37,286 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:47,253 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:47,253 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:47,288 INFO [long-pulling] client count 0
+
+2021-10-19 16:39:57,254 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:39:57,254 INFO toNotifyTaskSize=0
+
+2021-10-19 16:39:57,289 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:07,258 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:07,258 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:07,290 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:17,260 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:17,260 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:17,294 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:27,263 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:27,263 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:27,295 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:37,264 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:37,264 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:37,298 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:47,267 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:47,267 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:47,301 INFO [long-pulling] client count 0
+
+2021-10-19 16:40:57,270 INFO toNotifyTaskSize=0
+
+2021-10-19 16:40:57,270 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:40:57,305 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:07,274 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:07,274 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:07,305 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:17,276 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:17,276 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:17,310 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:27,279 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:27,279 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:27,311 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:37,282 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:37,282 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:37,312 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:47,283 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:47,283 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:47,313 INFO [long-pulling] client count 0
+
+2021-10-19 16:41:57,286 INFO toNotifyTaskSize=0
+
+2021-10-19 16:41:57,286 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:41:57,314 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:07,289 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:07,289 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:07,316 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:17,290 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:17,290 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:17,318 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:27,293 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:27,293 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:27,320 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:37,293 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:37,293 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:37,323 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:47,294 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:47,294 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:47,326 INFO [long-pulling] client count 0
+
+2021-10-19 16:42:57,298 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:42:57,298 INFO toNotifyTaskSize=0
+
+2021-10-19 16:42:57,329 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:07,302 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:07,302 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:07,331 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:17,304 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:17,304 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:17,331 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:27,305 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:27,305 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:27,333 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:37,308 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:37,308 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:37,336 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:47,312 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:47,312 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:47,340 INFO [long-pulling] client count 0
+
+2021-10-19 16:43:57,315 INFO toNotifyTaskSize=0
+
+2021-10-19 16:43:57,315 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:43:57,344 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:07,317 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:07,317 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:07,344 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:17,319 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:17,319 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:17,348 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:27,333 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:27,333 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:27,366 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:37,335 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:37,335 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:37,370 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:47,335 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:47,335 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:47,373 INFO [long-pulling] client count 0
+
+2021-10-19 16:44:57,336 INFO toNotifyTaskSize=0
+
+2021-10-19 16:44:57,336 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:44:57,374 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:07,340 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:07,340 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:07,376 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:17,340 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:17,340 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:17,379 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:27,341 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:27,341 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:27,383 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:37,342 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:37,342 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:37,385 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:47,346 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:47,346 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:47,389 INFO [long-pulling] client count 0
+
+2021-10-19 16:45:57,347 INFO toNotifyTaskSize=0
+
+2021-10-19 16:45:57,347 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:45:57,391 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:07,349 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:07,349 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:07,393 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:17,351 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:17,351 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:17,395 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:27,353 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:27,353 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:27,397 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:37,356 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:37,356 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:37,399 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:47,358 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:47,358 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:47,401 INFO [long-pulling] client count 0
+
+2021-10-19 16:46:57,358 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:46:57,358 INFO toNotifyTaskSize=0
+
+2021-10-19 16:46:57,404 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:07,359 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:07,359 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:07,407 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:17,362 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:17,362 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:17,410 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:27,364 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:27,364 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:27,412 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:37,365 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:37,365 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:37,415 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:47,367 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:47,367 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:47,419 INFO [long-pulling] client count 0
+
+2021-10-19 16:47:57,369 INFO toNotifyTaskSize=0
+
+2021-10-19 16:47:57,369 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:47:57,420 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:07,370 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:07,370 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:07,420 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:17,374 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:17,374 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:17,424 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:27,375 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:27,375 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:27,426 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:37,376 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:37,376 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:37,427 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:47,376 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:47,376 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:47,430 INFO [long-pulling] client count 0
+
+2021-10-19 16:48:57,377 INFO toNotifyTaskSize=0
+
+2021-10-19 16:48:57,377 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:48:57,432 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:07,380 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:07,380 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:07,433 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:17,383 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:17,383 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:17,434 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:27,385 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:27,385 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:27,438 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:37,386 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:37,386 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:37,440 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:47,387 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:47,387 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:47,442 INFO [long-pulling] client count 0
+
+2021-10-19 16:49:57,389 INFO toNotifyTaskSize=0
+
+2021-10-19 16:49:57,389 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:49:57,443 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:07,391 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:07,391 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:07,445 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:17,394 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:17,394 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:17,447 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:27,396 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:27,396 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:27,447 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:37,396 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:37,396 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:37,449 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:47,400 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:47,400 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:47,452 INFO [long-pulling] client count 0
+
+2021-10-19 16:50:57,403 INFO toNotifyTaskSize=0
+
+2021-10-19 16:50:57,403 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:50:57,455 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:07,407 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:07,407 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:07,456 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:17,407 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:17,407 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:17,457 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:27,410 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:27,410 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:27,462 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:37,413 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:37,413 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:37,463 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:47,416 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:47,416 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:47,464 INFO [long-pulling] client count 0
+
+2021-10-19 16:51:57,418 INFO toNotifyTaskSize=0
+
+2021-10-19 16:51:57,418 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:51:57,466 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:07,420 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:07,420 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:07,469 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:17,423 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:17,423 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:17,469 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:27,425 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:27,425 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:27,472 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:37,428 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:37,428 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:37,473 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:47,431 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:47,431 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:47,473 INFO [long-pulling] client count 0
+
+2021-10-19 16:52:57,434 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:52:57,434 INFO toNotifyTaskSize=0
+
+2021-10-19 16:52:57,474 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:07,436 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:07,436 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:07,477 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:17,438 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:17,438 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:17,480 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:27,441 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:27,441 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:27,481 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:37,442 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:37,442 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:37,484 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:47,444 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:47,444 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:47,487 INFO [long-pulling] client count 0
+
+2021-10-19 16:53:57,446 INFO toNotifyTaskSize=0
+
+2021-10-19 16:53:57,446 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:53:57,491 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:07,450 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:07,450 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:07,493 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:17,453 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:17,453 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:17,494 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:27,454 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:27,454 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:27,497 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:37,459 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:37,459 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:37,497 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:47,459 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:47,459 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:47,499 INFO [long-pulling] client count 0
+
+2021-10-19 16:54:57,460 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:54:57,460 INFO toNotifyTaskSize=0
+
+2021-10-19 16:54:57,500 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:07,465 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:07,465 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:07,504 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:17,467 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:17,467 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:17,506 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:27,469 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:27,469 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:27,510 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:37,472 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:37,472 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:37,512 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:47,474 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:47,474 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:47,513 INFO [long-pulling] client count 0
+
+2021-10-19 16:55:57,474 INFO toNotifyTaskSize=0
+
+2021-10-19 16:55:57,474 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:55:57,514 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:07,475 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:07,475 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:07,514 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:17,478 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:17,478 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:17,517 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:27,482 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:27,482 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:27,521 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:37,485 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:37,485 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:37,521 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:47,486 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:47,486 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:47,524 INFO [long-pulling] client count 0
+
+2021-10-19 16:56:57,488 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:56:57,488 INFO toNotifyTaskSize=0
+
+2021-10-19 16:56:57,527 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:07,492 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:07,492 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:07,528 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:17,494 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:17,494 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:17,530 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:27,496 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:27,496 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:27,531 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:37,499 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:37,499 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:37,534 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:47,501 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:47,501 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:47,537 INFO [long-pulling] client count 0
+
+2021-10-19 16:57:57,504 INFO toNotifyTaskSize=0
+
+2021-10-19 16:57:57,504 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:57:57,539 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:07,505 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:07,505 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:07,542 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:17,505 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:17,505 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:17,546 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:27,507 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:27,507 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:27,550 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:37,511 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:37,511 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:37,553 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:47,515 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:47,515 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:47,553 INFO [long-pulling] client count 0
+
+2021-10-19 16:58:57,519 INFO toNotifyTaskSize=0
+
+2021-10-19 16:58:57,519 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:58:57,554 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:07,522 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:07,522 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:07,554 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:17,526 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:17,526 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:17,558 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:27,529 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:27,529 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:27,562 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:37,533 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:37,533 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:37,565 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:47,534 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:47,534 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:47,566 INFO [long-pulling] client count 0
+
+2021-10-19 16:59:57,537 INFO toNotifyTaskSize=0
+
+2021-10-19 16:59:57,537 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 16:59:57,569 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:07,538 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:07,538 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:07,570 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:17,539 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:17,539 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:17,571 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:27,541 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:27,541 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:27,572 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:37,542 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:37,542 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:37,574 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:47,544 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:47,544 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:47,574 INFO [long-pulling] client count 0
+
+2021-10-19 17:00:57,548 INFO toNotifyTaskSize=0
+
+2021-10-19 17:00:57,548 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:00:57,576 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:07,550 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:07,550 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:07,578 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:17,551 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:17,551 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:17,580 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:27,553 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:27,553 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:27,582 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:37,556 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:37,556 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:37,584 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:47,559 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:47,559 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:47,586 INFO [long-pulling] client count 0
+
+2021-10-19 17:01:57,564 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:01:57,564 INFO toNotifyTaskSize=0
+
+2021-10-19 17:01:57,591 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:07,565 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:07,565 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:07,592 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:17,566 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:17,566 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:17,594 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:27,568 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:27,568 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:27,596 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:37,569 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:37,569 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:37,598 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:47,573 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:47,573 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:47,599 INFO [long-pulling] client count 0
+
+2021-10-19 17:02:57,577 INFO toNotifyTaskSize=0
+
+2021-10-19 17:02:57,577 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:02:57,601 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:07,581 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:07,581 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:07,604 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:17,583 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:17,583 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:17,607 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:27,586 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:27,586 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:27,610 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:37,587 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:37,587 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:37,612 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:47,589 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:47,589 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:47,614 INFO [long-pulling] client count 0
+
+2021-10-19 17:03:57,591 INFO toNotifyTaskSize=0
+
+2021-10-19 17:03:57,591 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:03:57,617 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:07,595 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:07,595 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:07,619 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:17,596 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:17,596 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:17,620 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:27,597 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:27,597 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:27,622 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:37,597 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:37,597 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:37,623 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:47,600 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:47,600 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:47,625 INFO [long-pulling] client count 0
+
+2021-10-19 17:04:57,601 INFO toNotifyTaskSize=0
+
+2021-10-19 17:04:57,601 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:04:57,628 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:07,604 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:07,604 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:07,629 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:17,606 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:17,606 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:17,633 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:27,608 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:27,608 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:27,635 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:37,609 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:37,609 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:37,636 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:47,609 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:47,609 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:47,636 INFO [long-pulling] client count 0
+
+2021-10-19 17:05:57,613 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:05:57,613 INFO toNotifyTaskSize=0
+
+2021-10-19 17:05:57,637 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:07,615 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:07,615 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:07,638 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:17,616 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:17,616 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:17,639 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:27,618 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:27,618 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:27,642 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:37,620 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:37,620 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:37,644 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:47,621 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:47,621 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:47,645 INFO [long-pulling] client count 0
+
+2021-10-19 17:06:57,623 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:06:57,623 INFO toNotifyTaskSize=0
+
+2021-10-19 17:06:57,647 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:07,624 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:07,624 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:07,648 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:17,626 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:17,626 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:17,651 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:27,629 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:27,629 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:27,652 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:37,632 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:37,632 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:37,652 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:47,637 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:47,637 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:47,655 INFO [long-pulling] client count 0
+
+2021-10-19 17:07:57,641 INFO toNotifyTaskSize=0
+
+2021-10-19 17:07:57,641 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:07:57,658 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:07,644 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:07,644 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:07,660 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:17,645 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:17,645 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:17,661 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:27,649 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:27,649 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:27,661 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:37,651 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:37,651 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:37,663 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:47,654 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:47,654 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:47,665 INFO [long-pulling] client count 0
+
+2021-10-19 17:08:57,658 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:08:57,658 INFO toNotifyTaskSize=0
+
+2021-10-19 17:08:57,668 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:07,662 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:07,662 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:07,670 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:17,664 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:17,664 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:17,673 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:27,666 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:27,666 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:27,673 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:37,667 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:37,667 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:37,675 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:47,670 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:47,670 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:47,679 INFO [long-pulling] client count 0
+
+2021-10-19 17:09:57,671 INFO toNotifyTaskSize=0
+
+2021-10-19 17:09:57,671 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:09:57,679 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:07,673 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:07,673 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:07,683 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:17,676 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:17,676 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:17,685 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:27,677 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:27,677 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:27,685 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:37,680 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:37,680 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:37,688 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:47,682 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:47,682 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:47,690 INFO [long-pulling] client count 0
+
+2021-10-19 17:10:57,684 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:10:57,684 INFO toNotifyTaskSize=0
+
+2021-10-19 17:10:57,692 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:07,685 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:07,685 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:07,693 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:17,687 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:17,687 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:17,695 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:27,690 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:27,690 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:27,698 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:37,694 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:37,694 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:37,703 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:47,697 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:47,697 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:47,705 INFO [long-pulling] client count 0
+
+2021-10-19 17:11:57,698 INFO toNotifyTaskSize=0
+
+2021-10-19 17:11:57,698 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:11:57,708 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:07,701 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:07,701 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:07,710 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:17,701 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:17,701 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:17,713 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:27,703 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:27,703 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:27,715 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:37,704 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:37,704 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:37,716 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:47,706 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:47,706 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:47,720 INFO [long-pulling] client count 0
+
+2021-10-19 17:12:57,708 INFO toNotifyTaskSize=0
+
+2021-10-19 17:12:57,708 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:12:57,723 INFO [long-pulling] client count 0
+
+2021-10-19 17:13:07,713 INFO toNotifyTaskSize=0
+
+2021-10-19 17:13:07,713 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:13:07,724 INFO [long-pulling] client count 0
+
+2021-10-19 17:13:17,713 INFO toNotifyTaskSize=0
+
+2021-10-19 17:13:17,713 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:13:17,725 INFO [long-pulling] client count 0
+
+2021-10-19 17:13:27,716 INFO toNotifyTaskSize=0
+
+2021-10-19 17:13:27,716 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:13:27,728 INFO [long-pulling] client count 0
+
+2021-10-19 17:13:37,720 INFO toNotifyTaskSize=0
+
+2021-10-19 17:13:37,720 INFO groupCount=14, subscriberClientCount=0, subscriberCount=0
+
+2021-10-19 17:13:37,731 INFO [long-pulling] client count 0
+

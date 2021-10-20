@@ -1,0 +1,136 @@
+2021-10-13 09:28:18,401 INFO initializing Raft sub-system
+
+2021-10-13 09:28:18,402 INFO raft notifier started
+
+2021-10-13 09:28:18,402 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-10-13 09:28:18,404 INFO cache loaded, datum count: 0, current term: 0
+
+2021-10-13 09:28:18,404 INFO finish to load data from disk, cost: 2 ms.
+
+2021-10-13 09:28:18,405 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-10-13 09:28:18,345 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-10-13 09:28:18,411 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-10-13 09:28:18,450 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-10-13 09:28:19,604 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-10-13 09:28:23,343 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-10-13 09:28:23,343 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-10-13 09:28:23,343 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-10-13 09:28:24,096 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@store-gateway
+
+2021-10-13 09:28:26,413 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15134,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
+2021-10-13 09:28:38,347 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-10-13 09:29:10,703 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@story-thirdparty
+
+2021-10-13 09:29:10,755 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-10-13 09:29:17,295 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@store-product
+
+2021-10-13 09:52:24,109 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@store-member
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19606,"state":"CANDIDATE","term":1,"voteFor":"192.168.0.147:8848"}, term: 1
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18714,"state":"CANDIDATE","term":2,"voteFor":"192.168.0.147:8848"}, term: 2
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16723,"state":"CANDIDATE","term":3,"voteFor":"192.168.0.147:8848"}, term: 3
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19722,"state":"CANDIDATE","term":4,"voteFor":"192.168.0.147:8848"}, term: 4
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16488,"state":"CANDIDATE","term":5,"voteFor":"192.168.0.147:8848"}, term: 5
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18718,"state":"CANDIDATE","term":6,"voteFor":"192.168.0.147:8848"}, term: 6
+
+2021-10-13 12:16:33,507 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18626,"state":"CANDIDATE","term":7,"voteFor":"192.168.0.147:8848"}, term: 7
+
+2021-10-13 12:16:33,508 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17745,"state":"CANDIDATE","term":8,"voteFor":"192.168.0.147:8848"}, term: 8
+
+2021-10-13 12:16:33,508 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18522,"state":"CANDIDATE","term":9,"voteFor":"192.168.0.147:8848"}, term: 9
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17788,"state":"CANDIDATE","term":10,"voteFor":"192.168.0.147:8848"}, term: 10
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15764,"state":"CANDIDATE","term":11,"voteFor":"192.168.0.147:8848"}, term: 11
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18050,"state":"CANDIDATE","term":12,"voteFor":"192.168.0.147:8848"}, term: 12
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17262,"state":"CANDIDATE","term":13,"voteFor":"192.168.0.147:8848"}, term: 13
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19756,"state":"CANDIDATE","term":14,"voteFor":"192.168.0.147:8848"}, term: 14
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16615,"state":"CANDIDATE","term":15,"voteFor":"192.168.0.147:8848"}, term: 15
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18880,"state":"CANDIDATE","term":16,"voteFor":"192.168.0.147:8848"}, term: 16
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16067,"state":"CANDIDATE","term":17,"voteFor":"192.168.0.147:8848"}, term: 17
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15230,"state":"CANDIDATE","term":18,"voteFor":"192.168.0.147:8848"}, term: 18
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17878,"state":"CANDIDATE","term":19,"voteFor":"192.168.0.147:8848"}, term: 19
+
+2021-10-13 12:16:33,509 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19434,"state":"CANDIDATE","term":20,"voteFor":"192.168.0.147:8848"}, term: 20
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17849,"state":"CANDIDATE","term":21,"voteFor":"192.168.0.147:8848"}, term: 21
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15308,"state":"CANDIDATE","term":22,"voteFor":"192.168.0.147:8848"}, term: 22
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19513,"state":"CANDIDATE","term":23,"voteFor":"192.168.0.147:8848"}, term: 23
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16585,"state":"CANDIDATE","term":24,"voteFor":"192.168.0.147:8848"}, term: 24
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19066,"state":"CANDIDATE","term":25,"voteFor":"192.168.0.147:8848"}, term: 25
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17239,"state":"CANDIDATE","term":26,"voteFor":"192.168.0.147:8848"}, term: 26
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16893,"state":"CANDIDATE","term":27,"voteFor":"192.168.0.147:8848"}, term: 27
+
+2021-10-13 12:16:33,512 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17712,"state":"CANDIDATE","term":28,"voteFor":"192.168.0.147:8848"}, term: 28
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18753,"state":"CANDIDATE","term":29,"voteFor":"192.168.0.147:8848"}, term: 29
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16030,"state":"CANDIDATE","term":30,"voteFor":"192.168.0.147:8848"}, term: 30
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15819,"state":"CANDIDATE","term":31,"voteFor":"192.168.0.147:8848"}, term: 31
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17289,"state":"CANDIDATE","term":32,"voteFor":"192.168.0.147:8848"}, term: 32
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16283,"state":"CANDIDATE","term":33,"voteFor":"192.168.0.147:8848"}, term: 33
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15769,"state":"CANDIDATE","term":34,"voteFor":"192.168.0.147:8848"}, term: 34
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":18642,"state":"CANDIDATE","term":35,"voteFor":"192.168.0.147:8848"}, term: 35
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15332,"state":"CANDIDATE","term":36,"voteFor":"192.168.0.147:8848"}, term: 36
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":17904,"state":"CANDIDATE","term":37,"voteFor":"192.168.0.147:8848"}, term: 37
+
+2021-10-13 12:16:33,513 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16936,"state":"CANDIDATE","term":38,"voteFor":"192.168.0.147:8848"}, term: 38
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16183,"state":"CANDIDATE","term":39,"voteFor":"192.168.0.147:8848"}, term: 39
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16524,"state":"CANDIDATE","term":40,"voteFor":"192.168.0.147:8848"}, term: 40
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19823,"state":"CANDIDATE","term":41,"voteFor":"192.168.0.147:8848"}, term: 41
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16059,"state":"CANDIDATE","term":42,"voteFor":"192.168.0.147:8848"}, term: 42
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":15413,"state":"CANDIDATE","term":43,"voteFor":"192.168.0.147:8848"}, term: 43
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19617,"state":"CANDIDATE","term":44,"voteFor":"192.168.0.147:8848"}, term: 44
+
+2021-10-13 12:16:33,514 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":19773,"state":"CANDIDATE","term":45,"voteFor":"192.168.0.147:8848"}, term: 45
+
+2021-10-13 12:16:33,802 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-10-13 12:16:34,267 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.147:8848","leaderDueMs":16895,"state":"CANDIDATE","term":46,"voteFor":"192.168.0.147:8848"}, term: 46
+
+2021-10-13 12:16:48,803 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.147","key":"192.168.0.147:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

@@ -1,0 +1,622 @@
+2021-10-12 09:33:01,748 INFO DEFAULT_GROUP@@store-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:33:01,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-gateway, ips: 192.168.0.147:88_true,
+
+2021-10-12 09:33:01,808 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:33:01,809 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 09:33:01,816 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 09:33:01,999 INFO DEFAULT_GROUP@@story-thirdparty {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:33:01,999 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@story-thirdparty, ips: 192.168.0.147:30000_true,
+
+2021-10-12 09:33:12,194 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:33:12,194 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.0.147:8080_true,
+
+2021-10-12 09:35:36,342 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:35:36,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 09:35:48,781 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:35:48,781 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 09:36:21,374 INFO DEFAULT_GROUP@@store-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:36:21,374 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-gateway, ips: 
+
+2021-10-12 09:36:27,865 INFO DEFAULT_GROUP@@store-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:36:27,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-gateway, ips: 192.168.0.147:88_true,
+
+2021-10-12 09:36:30,413 INFO DEFAULT_GROUP@@story-thirdparty {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:36:30,413 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@story-thirdparty, ips: 
+
+2021-10-12 09:36:34,610 INFO DEFAULT_GROUP@@story-thirdparty {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:36:34,610 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@story-thirdparty, ips: 192.168.0.147:30000_true,
+
+2021-10-12 09:36:38,389 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 09:36:38,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-10-12 10:24:19,581 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:24:19,584 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:24:21,178 INFO DEFAULT_GROUP@@story-thirdparty {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:24:21,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@story-thirdparty, ips: 192.168.0.147:30000_true,
+
+2021-10-12 10:24:21,589 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:24:21,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.0.147:8080_true,
+
+2021-10-12 10:24:23,252 INFO DEFAULT_GROUP@@store-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:24:23,252 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-gateway, ips: 192.168.0.147:88_true,
+
+2021-10-12 10:26:09,541 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:26:09,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:26:15,171 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:26:15,171 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:27:04,600 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005605199
+
+2021-10-12 10:27:19,691 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:27:19,691 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:27:25,566 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:27:25,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:27:54,701 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005655677
+
+2021-10-12 10:28:08,851 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 10:28:24,714 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005688851
+
+2021-10-12 10:28:39,721 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:28:39,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:28:49,794 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:28:49,794 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:29:09,736 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005729793
+
+2021-10-12 10:29:24,742 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:29:24,742 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:29:36,777 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:29:36,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:29:54,754 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005776777
+
+2021-10-12 10:30:09,762 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:30:09,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:30:38,579 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:30:38,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:31:09,785 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634005852210
+
+2021-10-12 10:31:24,797 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:31:24,797 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:31:51,239 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:31:51,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:31:51,256 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:31:51,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:31:58,103 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:31:58,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:38:32,497 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:38:32,497 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:38:38,947 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:38:38,947 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:41:02,783 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:41:02,783 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:41:09,202 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:41:09,202 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:43:28,538 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:43:28,538 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:43:34,775 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:43:34,775 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:44:56,264 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:44:56,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:46:35,307 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:46:35,307 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:47:20,144 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634006820385
+
+2021-10-12 10:47:26,141 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 10:47:50,158 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634006851763
+
+2021-10-12 10:48:05,171 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:48:05,171 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:48:26,342 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:48:26,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:48:50,184 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634006911456
+
+2021-10-12 10:49:05,191 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:49:05,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:49:18,159 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:49:18,159 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:49:55,208 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634006975955
+
+2021-10-12 10:50:01,457 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 10:50:20,220 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634007001457
+
+2021-10-12 10:50:35,235 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:50:35,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:50:58,083 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:50:58,083 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:51:15,248 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634007058083
+
+2021-10-12 10:51:30,255 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:51:30,255 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:51:33,666 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:51:33,666 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:51:50,262 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634007093666
+
+2021-10-12 10:52:05,276 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 10:52:05,276 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 10:52:09,197 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 10:52:09,197 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 10:52:55,287 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634007159650
+
+2021-10-12 10:52:58,523 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 11:03:09,561 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:03:09,561 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:03:17,185 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:03:17,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:05:14,077 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:05:14,077 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:05:18,534 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:05:18,534 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:05:41,448 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:05:41,448 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:05:45,925 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:05:45,925 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:06:18,183 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:06:18,183 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:06:25,059 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:06:25,059 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:10:52,855 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:10:52,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:11:00,110 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:11:00,110 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:26:47,699 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:26:47,699 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:26:54,199 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:26:54,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 11:33:09,182 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:33:09,182 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 11:33:14,409 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 11:33:14,409 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:00:04,518 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:00:04,518 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:00:10,925 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:00:10,925 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:17:42,743 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:17:42,743 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:17:49,280 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:17:49,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:26:13,735 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:26:13,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:26:19,275 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:26:19,275 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:27:47,621 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634012849325
+
+2021-10-12 12:28:02,630 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:28:02,630 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:29:49,073 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:29:49,073 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:33:52,767 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013215654
+
+2021-10-12 12:34:07,773 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:34:07,773 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:34:48,464 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:34:48,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:35:07,806 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013288464
+
+2021-10-12 12:35:22,811 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:35:22,811 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:37:21,487 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:37:21,487 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:37:37,861 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013441487
+
+2021-10-12 12:37:52,869 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:37:52,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:39:23,066 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:39:23,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:39:42,913 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013563066
+
+2021-10-12 12:39:57,918 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:39:57,918 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:41:04,687 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:41:04,688 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:41:22,950 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013664687
+
+2021-10-12 12:41:37,960 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:41:37,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:43:40,260 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:43:40,260 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:43:40,311 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:43:40,311 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:43:46,495 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:43:46,495 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:44:33,027 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013856515
+
+2021-10-12 12:44:35,032 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 12:45:03,040 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013886897
+
+2021-10-12 12:45:18,046 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:45:18,046 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:45:24,355 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:45:24,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:45:43,051 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013924354
+
+2021-10-12 12:45:58,063 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:45:58,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:46:06,437 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:46:06,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:46:23,071 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013966437
+
+2021-10-12 12:46:32,124 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 12:46:48,090 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634013992124
+
+2021-10-12 12:47:03,096 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 12:47:03,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 12:47:04,253 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 12:47:04,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 12:47:23,102 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634014024253
+
+2021-10-12 12:47:26,855 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 13:26:56,631 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 13:26:56,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 13:27:04,640 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 13:27:04,640 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:09:45,768 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:09:45,768 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:09:52,972 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:09:52,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:11:45,354 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:11:45,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:11:51,644 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:11:51,644 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:14:45,635 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:14:45,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:14:51,979 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:14:51,979 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:17:25,916 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:17:25,916 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:17:32,164 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:17:32,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:36:20,357 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:36:20,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:36:25,439 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:36:25,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:40:49,184 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:40:49,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:40:54,162 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:40:54,162 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:47:33,279 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:47:33,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:47:39,661 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:47:39,661 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:49:15,783 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:49:15,783 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:49:20,883 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:49:20,883 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 14:59:43,198 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:59:43,198 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 14:59:48,329 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 14:59:48,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:43:18,489 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:43:18,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:43:25,908 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:43:25,908 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:51:18,104 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:51:18,104 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:51:25,394 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:51:25,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:51:48,854 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634028690391
+
+2021-10-12 16:51:56,681 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 16:52:13,864 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634028716681
+
+2021-10-12 16:52:14,916 INFO service: DEFAULT_GROUP@@store-product {POS} {IP-ENABLED} valid: 192.168.0.147:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-12 16:52:33,872 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634028734916
+
+2021-10-12 16:52:48,880 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 16:52:48,880 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:53:03,884 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:53:03,884 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:53:18,886 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634028783884
+
+2021-10-12 16:53:33,894 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 16:53:33,894 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:53:40,647 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:53:40,647 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:53:58,902 INFO {POS} {IP-DISABLED} valid: 192.168.0.147:10000@DEFAULT@DEFAULT_GROUP@@store-product, region: unknown, msg: client timeout after 15000, last beat: 1634028820647
+
+2021-10-12 16:54:13,907 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-12 16:54:13,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:54:29,589 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:54:29,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:55:54,494 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:55:54,494 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:56:00,242 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:56:00,243 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:58:16,223 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:58:16,223 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:58:23,011 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:58:23,011 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:59:19,477 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:59:19,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 16:59:26,293 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:59:26,293 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 16:59:55,097 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 16:59:55,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 17:00:02,268 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:00:02,268 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 17:02:02,735 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:02:02,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 17:02:09,846 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:02:09,846 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 17:35:47,565 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:35:47,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 17:35:55,419 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:35:55,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 17:46:49,090 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:46:49,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 17:46:56,409 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 17:46:56,409 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 192.168.0.147:10000_true,
+
+2021-10-12 18:00:33,034 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 18:00:33,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-10-12 18:00:33,070 INFO DEFAULT_GROUP@@store-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 18:00:33,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-product, ips: 
+
+2021-10-12 18:00:33,086 INFO DEFAULT_GROUP@@story-thirdparty {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 18:00:33,086 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@story-thirdparty, ips: 
+
+2021-10-12 18:00:33,112 INFO DEFAULT_GROUP@@store-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.147:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-12 18:00:33,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@store-gateway, ips: 
+

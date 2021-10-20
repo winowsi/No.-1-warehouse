@@ -1,0 +1,26 @@
+2021-10-14 09:16:54,927 INFO [dump-all-ok] store-coupon+DEFAULT_GROUP, 1632363789282, length=53, md5=beb98fb0a6e4c05a7f05582c50bfa4a8
+
+2021-10-14 09:16:54,928 INFO [dump-all-ok] store-coupon+DEFAULT_GROUP, 1632385479910, length=150, md5=98f8969389845dc6b5a91b0c3df7e85d
+
+2021-10-14 09:16:54,928 INFO [dump-all-ok] store-member+DEFAULT_GROUP, 1632364690503, length=515, md5=a3a6f3e2e98d1768b0e16e82a6ff6af2
+
+2021-10-14 09:16:54,928 INFO [dump-all-ok] store-order+DEFAULT_GROUP, 1632364918360, length=514, md5=d9a241e9b6355b5d201815de543289f2
+
+2021-10-14 09:16:54,928 INFO [dump-all-ok] store-product+DEFAULT_GROUP, 1632365023280, length=515, md5=adffe67a24e33b29332cc7acc23e43e1
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] store-ware+DEFAULT_GROUP, 1632365179379, length=514, md5=da26a02c1e831bd8636fc91a4f6274cb
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] store-gateway+DEFAULT_GROUP, 1632366150105, length=146, md5=e4b291dc50c61b46ba1c5cc8ffb6fe26
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] mydatis.yml+dev, 1632377242484, length=127, md5=9556cfd8003a7c3b55ac8e073cb3f486
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] DataSource.yml+dev, 1632377311887, length=264, md5=56c8a9c479d964b145e1c600ef36dd8e
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] other.yml+dev, 1632383892645, length=147, md5=b227436e50f897e3c2a9456fb09a75f7
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] store-coupon+dev, 1632384576307, length=53, md5=beb98fb0a6e4c05a7f05582c50bfa4a8
+
+2021-10-14 09:16:54,929 INFO [dump-all-ok] store-coupon+pro, 1632384665470, length=57, md5=b8cdb98e4d819f589b8e1a028899046f
+
+2021-10-14 09:16:54,930 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1632992210038, length=185, md5=1b25ff23f02eceefa368be8cd040cea2
+
