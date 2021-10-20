@@ -3,8 +3,8 @@ spring:
     name: story-thirdparty
   cloud:
     alicloud:
-      access-key: LTAI5tKWEELYpegieT3uFBft
-      secret-key: slb5IPP8zK5WHptkztKn2P6TOuynmt
+      access-key:
+      secret-key:
       oss:
         endpoint: oss-cn-chengdu.aliyuncs.com
         bucket: winowis
