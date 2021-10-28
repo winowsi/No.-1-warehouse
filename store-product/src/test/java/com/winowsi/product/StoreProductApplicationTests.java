@@ -12,6 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -28,5 +31,19 @@ class StoreProductApplicationTests {
 
     }
 
+    @Test
+    public void fand() {
+        List<String> a = null;
+        Thread thread = new Thread();
+        
+        System.out.println(a.size());
+    }
+    int foo(int n) {
+        if (n < 2) return n;
+       int foo = foo(n - 1);
+        //int foo1 = foo(n - 2);
+        return  foo;
+    }
 
 }
+

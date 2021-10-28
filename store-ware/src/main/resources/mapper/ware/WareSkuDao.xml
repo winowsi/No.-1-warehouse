@@ -15,6 +15,9 @@
     <insert id="addStock">
         UPDATE wms_ware_sku SET wms_ware_sku.stock=wms_ware_sku.stock+#{skuNum} WHERE wms_ware_sku.ware_id=#{wareId} AND wms_ware_sku.sku_id=#{skuId}
     </insert>
+    <select id="getHasStock" resultType="java.lang.Long">
+        SELECT SUM(stock-stock_locked) FROM `wms_ware_sku` WHERE sku_id=#{item}
+    </select>
 
 
 </mapper>

@@ -1,14 +1,12 @@
-package com.winowsi.product.controller;
+package com.winowsi.product.app;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
 
 import com.winowsi.common.valid.AddGroup;
 import com.winowsi.common.valid.UpdateGroup;
 import com.winowsi.common.valid.UpdateStatusGroup;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,8 +18,6 @@ import com.winowsi.product.entity.BrandEntity;
 import com.winowsi.product.service.BrandService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.common.utils.R;
-
-import javax.validation.Valid;
 
 
 /**

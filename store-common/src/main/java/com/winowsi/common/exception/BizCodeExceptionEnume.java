@@ -13,7 +13,8 @@ public enum BizCodeExceptionEnume {
     /**
      * VALID_EXCEPTION
      */
-    VALID_EXCEPTION(10001,"参数格式校验失败");
+    VALID_EXCEPTION(10001,"参数格式校验失败"),
+    PRODUCT_UP_EXCEPTION(11000,"商品上架功能异常");
     private Integer code;
     private String msg;
 

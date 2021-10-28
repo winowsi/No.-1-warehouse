@@ -1,13 +1,11 @@
-package com.winowsi.product.controller;
+package com.winowsi.product.app;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
 
 import com.winowsi.product.entity.ProductAttrValueEntity;
-import com.winowsi.product.entity.SpuInfoEntity;
 import com.winowsi.product.service.ProductAttrValueService;
 import com.winowsi.product.vo.AttrRespVo;
 import com.winowsi.product.vo.AttrVo;

@@ -3,12 +3,15 @@ package com.winowsi.ware.service.impl;
 import com.sun.xml.internal.bind.v2.TODO;
 import com.winowsi.common.utils.R;
 import com.winowsi.ware.feign.ProductFeignService;
+import com.winowsi.ware.vo.SkuHasStockVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -71,6 +74,20 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
             this.baseMapper.addStock( skuId,  wareId,  skuNum);
         }
 
+    }
+
+    @Override
+    public List<SkuHasStockVo> getSkuHasStock(List<Long> skuId) {
+
+        List<SkuHasStockVo> collect = skuId.stream().map(item -> {
+            SkuHasStockVo skuHasStockVo = new SkuHasStockVo();
+            skuHasStockVo.setSkuId(item);
+            //查询
+            Long count=this.baseMapper.getHasStock(item);
+            skuHasStockVo.setHasStock(count==null?false:count>0);
+            return skuHasStockVo;
+        }).collect(Collectors.toList());
+        return collect;
     }
 
 }

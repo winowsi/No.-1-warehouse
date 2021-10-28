@@ -1,9 +1,8 @@
-package com.winowsi.product.controller;
+package com.winowsi.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
 
-import com.winowsi.product.vo.spuvo.SpuSaveVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,32 +10,32 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.winowsi.product.entity.SpuInfoEntity;
-import com.winowsi.product.service.SpuInfoService;
+import com.winowsi.product.entity.SpuImagesEntity;
+import com.winowsi.product.service.SpuImagesService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.common.utils.R;
 
 
 
 /**
- * spu信息
+ * spu图片
  *
  * @author zhaoyao
  * @email winowsi@outlook.com
  * @date 2021-09-18 15:03:34
  */
 @RestController
-@RequestMapping("product/spuinfo")
-public class SpuInfoController {
+@RequestMapping("product/spuimages")
+public class SpuImagesController {
     @Autowired
-    private SpuInfoService spuInfoService;
+    private SpuImagesService spuImagesService;
 
     /**
      * 列表
      */
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = spuInfoService.queryPageByCondition(params);
+        PageUtils page = spuImagesService.queryPage(params);
 
         return R.ok().put("page", page);
     }
@@ -47,17 +46,17 @@ public class SpuInfoController {
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
-		SpuInfoEntity spuInfo = spuInfoService.getById(id);
+		SpuImagesEntity spuImages = spuImagesService.getById(id);
 
-        return R.ok().put("spuInfo", spuInfo);
+        return R.ok().put("spuImages", spuImages);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody SpuSaveVo Vo){
-        spuInfoService.saveInfoSpuVo(Vo);
+    public R save(@RequestBody SpuImagesEntity spuImages){
+		spuImagesService.save(spuImages);
 
         return R.ok();
     }
@@ -66,8 +65,8 @@ public class SpuInfoController {
      * 修改
      */
     @RequestMapping("/update")
-    public R update(@RequestBody SpuInfoEntity spuInfo){
-		spuInfoService.updateById(spuInfo);
+    public R update(@RequestBody SpuImagesEntity spuImages){
+		spuImagesService.updateById(spuImages);
 
         return R.ok();
     }
@@ -77,7 +76,7 @@ public class SpuInfoController {
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
-		spuInfoService.removeByIds(Arrays.asList(ids));
+		spuImagesService.removeByIds(Arrays.asList(ids));
 
         return R.ok();
     }

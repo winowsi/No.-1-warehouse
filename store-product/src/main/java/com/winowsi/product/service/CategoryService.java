@@ -3,6 +3,7 @@ package com.winowsi.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.product.entity.CategoryEntity;
+import com.winowsi.product.vo.Catalogs2Vo;
 
 import java.util.List;
 import java.util.Map;
@@ -39,5 +40,9 @@ public interface CategoryService extends IService<CategoryEntity> {
     Long[] findCateLogPath(Long attr);
 
     void updateCascade(CategoryEntity category);
+
+    List<CategoryEntity> getLevel1Categories();
+
+    Map<String, List<Catalogs2Vo>> getCatalogJson();
 }
 

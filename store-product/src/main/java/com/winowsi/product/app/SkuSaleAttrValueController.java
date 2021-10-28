@@ -1,4 +1,4 @@
-package com.winowsi.product.controller;
+package com.winowsi.product.app;
 
 import java.util.Arrays;
 import java.util.Map;

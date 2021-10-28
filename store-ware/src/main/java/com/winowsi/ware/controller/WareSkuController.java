@@ -1,14 +1,12 @@
 package com.winowsi.ware.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
+import com.winowsi.ware.vo.SkuHasStockVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.winowsi.ware.entity.WareSkuEntity;
 import com.winowsi.ware.service.WareSkuService;
@@ -29,6 +27,14 @@ import com.winowsi.common.utils.R;
 public class WareSkuController {
     @Autowired
     private WareSkuService wareSkuService;
+
+    @PostMapping("/has/stock")
+    public R getSkuHasStock(@RequestBody List<Long> skuId){
+        List<SkuHasStockVo> skuHasStock = wareSkuService.getSkuHasStock(skuId);
+
+        return R.ok().setData(skuHasStock);
+
+    }
 
     /**
      * 列表

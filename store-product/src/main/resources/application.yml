@@ -12,6 +12,10 @@ spring:
     url: jdbc:mysql://192.168.56.128:3306/store_pms?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.56.128
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
 #  id??
@@ -25,6 +29,7 @@ server:
 logging:
   level:
     com.winowsi.product: debug
+
 
 
 
