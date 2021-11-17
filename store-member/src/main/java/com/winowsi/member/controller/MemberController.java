@@ -3,7 +3,13 @@ package com.winowsi.member.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.winowsi.common.exception.BizCodeExceptionEnume;
+import com.winowsi.member.exception.PhoneExsitException;
+import com.winowsi.member.exception.UserNameExsitException;
 import com.winowsi.member.feign.CouponFeignService;
+import com.winowsi.member.vo.MemberLoginVo;
+import com.winowsi.member.vo.MemberRegisterVo;
+import com.winowsi.member.vo.TokenVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,17 +30,19 @@ import com.winowsi.common.utils.R;
 @RestController
 @RequestMapping("member/member")
 public class MemberController {
+    private final MemberService memberService;
+    private final CouponFeignService couponFeignService;
     @Autowired
-    private MemberService memberService;
-
-    @Autowired
-    private CouponFeignService couponFeignService;
+    public MemberController(CouponFeignService couponFeignService, MemberService memberService) {
+        this.couponFeignService = couponFeignService;
+        this.memberService = memberService;
+    }
 
     /**
-     * @auth zhao yao
+     * @author: ZaoYao
      * @return 会员集合and优惠券集合
      * @description: 用于测试远程调用store_coupon微服务的controller接口
-     * @date:2021年9月23日09:53:52
+     * @time: :2021年9月23日09:53:52
      */
     @GetMapping("memberCoupon/List")
     public R memberCouponList(){
@@ -44,6 +52,49 @@ public class MemberController {
         return R.ok().put("umsMember",umsMember).put("coupon",couponList.get("coupon"));
     }
 
+    /**
+     * 登录
+     * @param memberLoginVo
+     * @return
+     */
+    @PostMapping("/login")
+    public  R login(@RequestBody MemberLoginVo memberLoginVo){
+        MemberEntity member=memberService.login(memberLoginVo);
+        if(member!=null){
+            return R.ok().put("member",member);
+        }else {
+            return R.error(BizCodeExceptionEnume.UserNAME_AND_PASSWORD_EXCEPTION.getCode(),BizCodeExceptionEnume.UserNAME_AND_PASSWORD_EXCEPTION.getMsg());
+        }
+    }
+    @PostMapping("/aouth2/login")
+    public  R login(@RequestBody TokenVo tokenVo){
+        MemberEntity member=memberService.login(tokenVo);
+        if(member!=null){
+            return R.ok().put("member",member);
+        }else {
+            return R.error(BizCodeExceptionEnume.UserNAME_AND_PASSWORD_EXCEPTION.getCode(),BizCodeExceptionEnume.UserNAME_AND_PASSWORD_EXCEPTION.getMsg());
+        }
+    }
+
+    /**
+     * 注册
+     * @param memberRegisterVo
+     * @return
+     */
+
+    @PostMapping("/register")
+    public  R register(@RequestBody MemberRegisterVo memberRegisterVo){
+
+        try {
+            memberService.register(memberRegisterVo);
+        } catch (PhoneExsitException e) {
+           return R.error(BizCodeExceptionEnume.USER_PHONE_EXIST_EXCEPTION.getCode(),BizCodeExceptionEnume.USER_PHONE_EXIST_EXCEPTION.getMsg());
+        }
+        catch (UserNameExsitException e) {
+            return R.error(BizCodeExceptionEnume.User_NAME_EXIST_EXCEPTION.getCode(),BizCodeExceptionEnume.User_NAME_EXIST_EXCEPTION.getMsg());
+        }
+        return R.ok();
+    }
 
     /**
      * 列表

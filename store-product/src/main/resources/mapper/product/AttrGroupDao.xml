@@ -3,7 +3,7 @@
 
 <mapper namespace="com.winowsi.product.dao.AttrGroupDao">
 
-	<!-- 可根据自己的需求，是否要使用 -->
+    <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.winowsi.product.entity.AttrGroupEntity" id="attrGroupMap">
         <result property="attrGroupId" column="attr_group_id"/>
         <result property="attrGroupName" column="attr_group_name"/>
@@ -12,6 +12,26 @@
         <result property="icon" column="icon"/>
         <result property="catelogId" column="catelog_id"/>
     </resultMap>
+    <resultMap id="spuItemAttrGroupVo" type="com.winowsi.product.vo.SpuItemAttrGroupVo">
+        <result property="groupName" column="groupName"></result>
+        <collection property="baseAttrVo" ofType="com.winowsi.product.vo.SpuBaseAttrVo">
+            <result property="attrName" column="attrName"></result>
+            <result property="attrValue" column="attrValue"></result>
+        </collection>
+    </resultMap>
+    <select id="getAttrGroupWithAttrsBySpuId" resultMap="spuItemAttrGroupVo">
+        SELECT pag.attr_group_name groupName,
+               pag.attr_group_id,
+               paar.attr_id,
+               par.attr_name       attrName,
+               ppav.attr_value     attrValue
+        from pms_attr_group pag
+                 LEFT JOIN pms_attr_attrgroup_relation paar on pag.attr_group_id = paar.attr_group_id
+                 LEFT JOIN pms_attr par on paar.attr_id = par.attr_id
+                 LEFT JOIN pms_product_attr_value ppav on paar.attr_id = ppav.attr_id
+        WHERE pag.catelog_id = #{catLogId}
+          and ppav.spu_id = #{spuId}
+    </select>
 
 
 </mapper>

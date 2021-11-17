@@ -61,12 +61,26 @@ spring:
             - Path=/api/**
           filters:
             - RewritePath=/api/?(?<segment>.*),/renren-fast/$\{segment}
-
-
+########################商城首页路由##########################################
         - id: store_host_route
           uri: lb://store-product
           predicates:
-            - Host=**.gulimall.com,**.gulimall.com
+            - Host=gulimall.com,item.gulimall.com
+########################检索路由##########################################
+        - id: store_host_search_route
+          uri: lb://store-search
+          predicates:
+            - Host=search.gulimall.com
+########################认证路由##########################################
+        - id: store_auth_route
+          uri: lb://store-auth-server
+          predicates:
+            - Host=auth.gulimall.com
+########################购物车路由##########################################
+        - id: store_cart_route
+          uri: lb://store-cart
+          predicates:
+            - Host=cart.gulimall.com
 
 server:
   port: 88

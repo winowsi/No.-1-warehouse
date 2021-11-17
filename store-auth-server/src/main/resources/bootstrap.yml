@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 5dcd6b2b-3806-4cb4-8158-db9d14a4f587
+  application:
+    name: store-auth-server

@@ -13,6 +13,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import org.apache.http.HttpStatus;
 
+import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,8 +30,8 @@ public class R extends HashMap<String, Object> {
 		String s = JSON.toJSONString(data);
 		T t = JSON.parseObject(s, tTypeReference);
 		return t;
-
 	}
+
 
 	public R setData(Object data){
 		put("data",data);
@@ -79,5 +80,11 @@ public class R extends HashMap<String, Object> {
 	public Integer grtCode() {
 
 		return (Integer) this.get("code");
+	}
+
+	public <T> T getData(String key, TypeReference<T> typeReference) {
+		Object data = get(key);
+		String jsonString = JSON.toJSONString(data);
+		return JSON.parseObject(jsonString, typeReference);
 	}
 }

@@ -1,8 +1,10 @@
 package com.winowsi.product.app;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.winowsi.common.valid.AddGroup;
 import com.winowsi.common.valid.UpdateGroup;
 import com.winowsi.common.valid.UpdateStatusGroup;
@@ -52,6 +54,12 @@ public class BrandController {
 		BrandEntity brand = brandService.getById(brandId);
 
         return R.ok().put("brand", brand);
+    }
+    @RequestMapping("/infos")
+    public R info(@RequestParam("brandIds") List<Long> brandId){
+        List<BrandEntity> brandEntityList = brandService.list(new QueryWrapper<BrandEntity>().in("brand_id", brandId));
+
+        return R.ok().put("brand", brandEntityList);
     }
 
     /**

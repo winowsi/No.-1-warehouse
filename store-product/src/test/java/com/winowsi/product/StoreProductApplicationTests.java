@@ -45,5 +45,6 @@ class StoreProductApplicationTests {
         return  foo;
     }
 
+
 }
 

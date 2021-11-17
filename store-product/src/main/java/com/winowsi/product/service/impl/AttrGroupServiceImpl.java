@@ -1,11 +1,11 @@
 package com.winowsi.product.service.impl;
 
 import com.winowsi.product.dao.AttrAttrgroupRelationDao;
-import com.winowsi.product.dao.AttrDao;
-import com.winowsi.product.entity.AttrAttrgroupRelationEntity;
 import com.winowsi.product.entity.AttrEntity;
 import com.winowsi.product.service.AttrService;
 import com.winowsi.product.vo.AttrGroupWithAttrsVo;
+import com.winowsi.product.vo.SkuItemVo;
+import com.winowsi.product.vo.SpuItemAttrGroupVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -99,6 +99,18 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
         }).collect(Collectors.toList());
 
         return collect;
+    }
+
+    /***
+     * 查出当前spu对应的属性分组信息以及当前分组所对应的属性的值
+     *
+     * @param
+     * @param catLogId id
+     * @return 组名和值
+     */
+    @Override
+    public List<SpuItemAttrGroupVo> getAttrGroupWithAttrsBySpuId(Long spuId, Long catLogId) {
+        return baseMapper.getAttrGroupWithAttrsBySpuId(spuId,catLogId);
     }
 
 }

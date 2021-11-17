@@ -16,6 +16,14 @@ spring:
     cache: false
   redis:
     host: 192.168.56.128
+  cache:
+    type: redis
+    redis:
+      time-to-live: 360000
+      cache-null-values: true
+      use-key-prefix: true
+  session:
+    store-type: redis
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
 #  id??
@@ -29,6 +37,7 @@ server:
 logging:
   level:
     com.winowsi.product: debug
+
 
 
 

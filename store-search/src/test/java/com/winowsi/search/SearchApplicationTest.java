@@ -3,6 +3,7 @@ package com.winowsi.search;
 import com.alibaba.fastjson.JSON;
 import com.winowsi.search.config.StoreElasticsearchConfig;
 import lombok.Data;
+import org.bouncycastle.pqc.crypto.newhope.NHOtherInfoGenerator;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -42,6 +43,7 @@ public class SearchApplicationTest {
         System.out.println("查询结果:"+search);
     }
 
+
         /**
      *
      * @throws IOException
@@ -63,4 +65,6 @@ public class SearchApplicationTest {
         private String age;
         private  String gender;
     }
+
+
 }

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: store-cart
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 172456ae-b3c8-4307-b261-e577018d2160

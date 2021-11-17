@@ -1,6 +1,7 @@
 package com.winowsi.product.vo;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @description:
@@ -8,6 +9,7 @@ import lombok.Data;
  * @Time: 2021/10/13 10:51
  */
 @Data
+@NoArgsConstructor
 public class BrandRelationVo {
     /**
      * 品牌id
