@@ -1,14 +1,11 @@
 package com.winowsi.product.app;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.winowsi.product.entity.SkuSaleAttrValueEntity;
 import com.winowsi.product.service.SkuSaleAttrValueService;
@@ -40,6 +37,15 @@ public class SkuSaleAttrValueController {
         return R.ok().put("page", page);
     }
 
+    /**
+     * 返回skuId对应的销售属性
+     * @param skuId
+     * @return
+     */
+    @GetMapping("stringList/{skuId}")
+    public List<String> getSkuSaleAttrValue(@RequestParam("skuId")Long skuId){
+       return skuSaleAttrValueService.getSkuSaleAttrValue(skuId);
+    }
 
     /**
      * 信息

@@ -15,4 +15,8 @@ public class AuthServerConstant {
      * 验证码加系统时间中间的下滑线
      */
     public  static  final String SMS_CODE_PREFIX="_";
+     /**
+     * 用户详细
+     */
+    public  static  final String LOGIN_USER="loginUser";
 }

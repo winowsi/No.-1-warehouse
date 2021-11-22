@@ -7,7 +7,6 @@
         <groupId>com.winowsi.store</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.winowsi.store</groupId>
     <artifactId>store-product</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>store-product</name>

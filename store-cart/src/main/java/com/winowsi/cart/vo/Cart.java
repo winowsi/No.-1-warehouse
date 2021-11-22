@@ -1,7 +1,6 @@
 package com.winowsi.cart.vo;
 
 
-
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -31,5 +30,60 @@ public class Cart {
     /**
      * 优惠金额
      */
-    private BigDecimal reduce;
+    private BigDecimal reduce=new BigDecimal("0");
+
+    public List<CartItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<CartItem> items) {
+        this.items = items;
+    }
+
+    public Integer getCountNumber() {
+        Integer count = 0;
+        if (null!=items&&items.size() > 0) {
+            for (CartItem item : items) {
+                count += item.getCount();
+            }
+        }
+        return count;
+    }
+
+
+    public Integer getCountType() {
+        int count = 0;
+        if (null!=items&&items.size() > 0) {
+            for (CartItem item : items) {
+                count +=1;
+            }
+        }
+        return count;
+    }
+
+
+
+    public BigDecimal getTotalAmount() {
+        BigDecimal amount = new BigDecimal("0");
+        if (null!=items&&items.size() > 0) {
+            for (CartItem item : items) {
+                if (item.isCheck()){
+                    amount = amount.add(item.getTotalPrice());
+                }
+            }
+            amount= amount.subtract(getReduce());
+        }
+
+        return amount;
+    }
+
+
+
+    public BigDecimal getReduce() {
+        return reduce;
+    }
+
+    public void setReduce(BigDecimal reduce) {
+        this.reduce = reduce;
+    }
 }

@@ -30,7 +30,4 @@ public class StoreCorsConfiguration {
         urlBasedCorsConfigurationSource.registerCorsConfiguration("/**",corsConfiguration);
         return new CorsWebFilter(urlBasedCorsConfigurationSource);
     }
-
-
-
 }

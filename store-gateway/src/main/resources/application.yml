@@ -81,6 +81,11 @@ spring:
           uri: lb://store-cart
           predicates:
             - Host=cart.gulimall.com
+########################订单车路由##########################################
+        - id: store_order_route
+          uri: lb://store-order
+          predicates:
+            - Host=member.gulimall.com
 
 server:
   port: 88

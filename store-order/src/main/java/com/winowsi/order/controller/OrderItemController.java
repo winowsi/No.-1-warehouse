@@ -1,20 +1,18 @@
 package com.winowsi.order.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.winowsi.order.entity.OrderItemEntity;
-import com.winowsi.order.service.OrderItemService;
 import com.winowsi.common.utils.PageUtils;
 import com.winowsi.common.utils.R;
+import com.winowsi.order.entity.OrderItemEntity;
+import com.winowsi.order.service.OrderItemService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+import java.util.Map;
+import java.util.UUID;
 
 
 /**
@@ -24,11 +22,15 @@ import com.winowsi.common.utils.R;
  * @email winowsi@outlook.com
  * @date 2021-09-18 15:44:52
  */
+@Slf4j
 @RestController
 @RequestMapping("order/orderitem")
 public class OrderItemController {
+
     @Autowired
     private OrderItemService orderItemService;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     /**
      * 列表
@@ -79,6 +81,16 @@ public class OrderItemController {
 		orderItemService.removeByIds(Arrays.asList(ids));
 
         return R.ok();
+    }
+
+    /**
+     * 发送消息
+     */
+    @GetMapping("/send/{routingKey}")
+    public  String sendMessing(@PathVariable(value = "routingKey") String routingKey){
+        rabbitTemplate.convertAndSend("hello_javaExchange",routingKey,"Hello Word",new CorrelationData(UUID.randomUUID().toString()));
+        log.info("sendMessage[{}]发送完成","Hello Word");
+        return "ok";
     }
 
 }

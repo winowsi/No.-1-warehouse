@@ -1,7 +1,5 @@
 package com.winowsi.cart.vo;
 
-import lombok.Data;
-
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -97,7 +95,9 @@ public class CartItem {
     }
 
     public BigDecimal getTotalPrice() {
-    return this.price.multiply(new BigDecimal("" + this.count));
+
+            return this.price.multiply(new BigDecimal("" + this.count));
+
     }
 
     public void setTotalPrice(BigDecimal totalPrice) {
